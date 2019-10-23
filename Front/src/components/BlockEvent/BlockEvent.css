@@ -1,0 +1,66 @@
+.block1 {
+  width: 300px;
+  margin: 20px auto;
+  background: linear-gradient(
+    18.98deg,
+    rgb(243, 227, 255) -3.17%,
+    rgb(234, 222, 255) 20.91%,
+    rgb(213, 192, 255) 32.72%,
+    rgb(202, 199, 245) 45.9%,
+    rgb(104, 141, 241) 54.66%,
+    rgb(114, 199, 255) 67.67%,
+    rgb(142, 225, 255) 77.89%,
+    rgb(142, 231, 255) 84.06%
+  );
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 18px 17px -10px rgba(50, 50, 50, 0.5);
+  box-shadow: 10px 18px 17px -10px rgba(50, 50, 50, 0.5);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.block1 img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  vertical-align: baseline;
+  object-fit: cover;
+}
+
+.block1 p {
+  font-weight: 500;
+  padding: 10px 20px;
+  color: blueviolet;
+}
+
+.event-date {
+  height: 32px;
+  width: 32px;
+  z-index: 2;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: -20px;
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px;
+  border-radius: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 10pt;
+}
+.event-date p {
+  padding: 0;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background: linear-gradient(
+    38.77deg,
+    rgb(233, 177, 207) -0.36%,
+    rgb(233, 120, 180) 8.45%,
+    #d159c7 18.68%,
+    rgb(181, 89, 214) 28.76%,
+    rgb(155, 87, 238) 41.24%,
+    rgb(138, 83, 240) 54.84%,
+    rgb(122, 74, 226) 63.12%,
+    rgb(98, 90, 247) 72.94%,
+    rgb(49, 79, 231) 83.78%
+  );
+}
+
+.header_li1 {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  height: 5em;
+}
+
+.li:hover {
+  border-bottom: 2px solid white;
+  transition: all 0.1s;
+}
+
+link {
+  text-decoration: none;
+}
